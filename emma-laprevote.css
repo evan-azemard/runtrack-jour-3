@@ -1,0 +1,138 @@
+@font-face {
+    font-family: 'edoregular';
+    src: url('polices/edo-webfont.eot');
+    src: url('polices/edo-webfont.eot?#iefix') format('embedded-opentype'),
+         url('polices/edo-webfont.woff2') format('woff2'),
+         url('polices/edo-webfont.woff') format('woff'),
+         url('polices/edo-webfont.ttf') format('truetype'),
+         url('polices/edo-webfont.svg#edoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'elliotsixregular';
+    src: url('polices/ElliotSix-webfont.eot');
+    src: url('polices/ElliotSix-webfont.eot?#iefix') format('embedded-opentype'),
+         url('polices/ElliotSix-webfont.woff2') format('woff2'),
+         url('polices/ElliotSix-webfont.woff') format('woff'),
+         url('polices/ElliotSix-webfont.ttf') format('truetype'),
+         url('polices/ElliotSix-webfont.svg#elliotsixregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+html {
+    background-image: url(inspiration-geometry.png);
+     background-color: #40273d; 
+}
+
+body {
+     background-color: white; 
+     margin-right: auto; 
+     margin-left: auto; 
+     width: 660px;
+}
+
+header {
+    background-color: white;
+    width: 660px; 
+    height: 177px; 
+    border-bottom: #40273d 3px dashed;
+}
+
+#logoemma {
+    float: left; 
+}
+
+.membres {
+    text-align: right;
+    padding-right: 20px; 
+    color: #40273d;
+    padding-top: 10px;
+    font-family: 'Amatic SC', cursive;
+    font-size: 20px;
+}
+
+section {
+    background-color: white; 
+    text-align: left;
+}
+
+.emma {
+    border-bottom: #40273d 3px dashed; 
+    height: 220px;
+}
+
+#portrait {
+    float: left; 
+    padding-left: 20px; 
+    padding-right: 20px; 
+    padding-top: 10px;
+}
+
+.presentation {
+    font-family: 'Courier New', sans-serif;
+    font-size: 13px;
+    padding-right: 10px;
+
+}
+
+h1 {
+    font-family: 'edoregular', sans-serif;
+}
+
+
+#myself {
+    float: right;
+    padding-right: 20px;
+    padding-left: 20px; 
+
+}
+
+h3 {
+    font-family: 'elliotsixregular', sans-serif;
+    text-align: right;
+    padding-top: 40px;
+
+}
+
+.presentationwho {
+    font-family: 'Courier New', sans-serif;
+    text-align: right;
+    font-size: 13px;
+    padding-left: 10px;
+    height: 160px;
+}
+
+footer {
+    background-color: black; 
+    margin-right: auto; 
+    margin-left: auto; 
+    height: 100px;
+    width: 660px;
+}
+
+.linkedin {
+    text-align: center;
+    color: white;
+    padding-top: 40px;
+    font-family: 'Amatic SC', cursive;
+    font-size: 25px;
+}
+
+a {
+    text-decoration: line-through;
+
+}
+
+a:hover {
+    text-decoration: none;
+    color: palevioletred;
+    font-size: 1.2em;
+}
+
+

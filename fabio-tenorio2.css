@@ -1,0 +1,82 @@
+/* font-family: 'Kufam', cursive;
+font-family: 'Slabo 27px', serif; */
+
+body {
+	font-family: 'Slabo 27px', serif;
+	background-color: #FFFFFF;
+}
+
+#main {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+header {
+	color: white;
+	text-align: center;
+	background-image: url("bgheader2.jpg");
+	width: 350px;
+	height: 600px;
+	position: fixed;
+	box-shadow: 10px 0 5px #888888;
+	padding-top: 50px;
+}
+
+header h1 {
+	font-family: 'Kufam', cursive;
+	font-size: 2.5em;
+}
+
+header span {
+	font-size: 1.2em;
+}
+
+header {
+	text-align: left;
+	padding-left: 10px;
+}
+
+section {
+	background-color: white;
+	color: blue;
+	height: 300px;
+	padding-top: 50px;
+	padding-left: 500px;
+	padding-right: 100px;
+	text-align: center;
+	justify-content: start;
+}
+div img {
+	float: both;
+	width: 100px;
+	border-radius: 5px;
+}
+a:hover {
+	font-style: italic;
+}
+
+footer {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+footer p {
+	margin: 50px 30px;
+	width: 200px;
+	height: 100px;
+	margin: 20px;
+	padding: 20px;
+	background-color: #4B0082;
+	color: white;
+	border-radius: 2px;
+}
+footer a {
+	color: gray;
+}
+
+footer a:hover {
+	color: white;
+}

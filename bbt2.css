@@ -1,0 +1,86 @@
+html {
+	height: 100%;
+	background-image: url('collage.jpg');
+	background-position: center;
+	background-color: burlywood;
+	color: black;
+	background-attachment: repeat;
+}
+
+body{
+    background-color: white;
+    width: 900px;
+    margin-right: auto; 
+	margin-left: auto;
+	border-radius: 10px; 
+
+}
+
+ul li img, .photoright {
+	float: right;
+	width: 80px;
+	border-radius: 2px;
+	margin: 5px;
+    transition:  border-radius 0.2s;
+}
+
+#groupName {
+    font-family: 'VT323', monospace;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+#subTitle {
+    font-family: 'Major Mono Display', monospace;
+    text-align: center;
+    font-size: 15px;
+}
+
+#supposed {
+	color: green;
+}
+
+#mainElements {
+	font-size: 2.5em;
+	margin: 50px;
+	padding: 20px 30px;
+	background-color: black;
+	opacity: 1;
+	box-shadow: 5px 5px 20px 15px #191919 /* h-offset v-offset blur spread color */
+}
+
+#groupImage {
+	width: auto;
+	
+}
+
+.ourNames {
+	list-style: none;
+}
+
+.eachName, a {
+	color: white;
+	margin: 100px 200px;
+	text-align: bottom;
+}
+
+ul li img, .photoright {
+	float: right;
+	width: 80px;
+	border-radius: 2px;
+	margin: 5px;
+	transition:  border-radius 0.2s;
+}
+
+ul li img, .photoleft {
+	float: left;
+	width: 80px;
+	border-radius: 2px;
+	margin: 5px;
+}
+
+ul li img:hover {
+	width: 100px;
+	border-radius: 50%;
+}

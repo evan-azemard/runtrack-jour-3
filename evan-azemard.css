@@ -1,0 +1,36 @@
+body{
+	background-image:url(https://c.wallhere.com/photos/6d/9e/Vincent_van_Gogh_starry_night_The_Starry_Night-195903.jpg!d) /*my background*/
+}
+h1{
+	box-shadow: 8px 8px 12px #aaa;
+	border: 3px blue dashed;
+	font-size: 80px;
+	color: #FFA500;
+	text-decoration:underline;
+	font-style: italic;
+	text-align: center 
+}
+
+h2{
+	box-shadow: 8px 8px 12px #aaa;
+	font-size: 50px;
+	color: #FFA500;
+	text-decoration:underline;
+	font-style: italic;
+	text-align: center 
+
+
+}
+p{
+	margin: 2px 5px 1px;
+	padding: 4% 1;
+	box-shadow: 8px 8px 12px #aaa;
+	border-radius: 20px;
+	font-size: 22px;
+	color:#FFC0CB ;
+	font-weight:bold;
+}
+
+#i3{
+	float: left;
+}
